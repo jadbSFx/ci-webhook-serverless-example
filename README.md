@@ -18,7 +18,7 @@ toolset is used to push lambda functions and supporting components as described
 via the `serverless.yml` configuration.
 
 ```
-npm install serverless
+npm install -g serverless
 cd ci-webhook-handler
 npm init --yes
 npm install --save serverless-python-requirements
