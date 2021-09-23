@@ -35,8 +35,8 @@ There are several options for connecting. See : https://www.serverless.com/frame
 1. Package the necessary python libraries with the runtime. `serverless` uses
 Docker to build a custom runtime by pulling the AWS runtime as a docker image
 and including dependencies declared in `requirements.txt` into that image to
-form a custom runtime. NOTE: THIS WILL LIKELY TAKE A VERY VERY LONG TIME THE FIRST RUN (mostly to pull the
-base images from AWS Docker repo and run `docker build`)
+form a custom runtime. NOTE: THIS MAY TAKE A VERY LONG TIME THE FIRST RUN (if
+it has to pull base images from AWS Docker repo and run `docker build`)
 
 ```
 serverless deploy
